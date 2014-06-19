@@ -1,0 +1,2 @@
+[08-Jun-2014 14:57:33 UTC] PHP Warning:  require_once(/home/prasadch/public_html/vendor/autoload.php): failed to open stream: No such file or directory in /home/prasadch/public_html/index.php on line 11
+[08-Jun-2014 14:57:33 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/prasadch/public_html/vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/prasadch/public_html/index.php on line 11
