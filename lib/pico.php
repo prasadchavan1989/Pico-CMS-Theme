@@ -187,18 +187,7 @@ class Pico {
 	protected function get_config()
 	{
 		global $config;
-		if (ENVI==="dev")
-		{
-			@include_once(ROOT_DIR .'config.dev.php');
-		}
-		else if (ENVI==="live")
-		{
-			@include_once(ROOT_DIR .'config.live.php');
-		}
-		else
-		{
-			die("<h1>No environment vairable detected</h1>");
-		}
+		@include_once(ROOT_DIR .'config.php');
 		$defaults = array(
 			'site_title' => 'Prasad Chavan',
 			'base_url' => $this->base_url(),
